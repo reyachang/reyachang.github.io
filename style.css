@@ -19,6 +19,20 @@ body {
     justify-content: center;
 }
 
+.jiggle {
+    animation: rotation 0.2s infinite alternate;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(-20deg);
+    }
+    to {
+      transform: rotate(10deg);
+    }
+  }
+  
+
 .animate-charcter {
     background-image: linear-gradient(-225deg,
             #a7e8bd 0%,
